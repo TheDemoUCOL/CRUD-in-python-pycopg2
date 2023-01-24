@@ -67,6 +67,7 @@ def alta():
             
             if ok == 0:
                 print("Datos insertados correctamente")
-                ok=+1                
+                ok=+1  
+                conn.close()              
             break
     return
